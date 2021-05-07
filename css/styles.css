@@ -1,0 +1,182 @@
+#title .container-fluid {
+    background-color: #111633;
+    color: rgb(255, 255, 255);
+}
+h1 {
+    font-family: 'Original Surfer', cursive;
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'satisfy', cursive;
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: bolder;  
+}
+h3 {
+    font-size: 1.6rem;
+    font-weight: bold;  
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(114, 113, 113);
+    font-size: 1rem;
+}
+
+.title-image {
+    width:35%;
+    transform: rotate(25deg);
+    position: absolute;
+    text-align: center;
+}
+.navbar {
+    padding-bottom: 5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+.nav-link {
+    font-size:1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-link {
+    position: absolute;
+    right: 5%;
+}
+
+.container-fluid {
+    padding: 2% 15%;
+}
+.Download-button {
+    margin: 15% 06% 5% 0;
+    border-radius: 9%;
+}
+
+#features {
+    padding: 7% 15%; 
+    background-color: #fff;
+    position: relative;
+    z-index: 0;
+   
+}
+.feature-box {
+    text-align: center;
+}
+.fas {
+    padding:3% 0;
+    color:#111633;
+}
+.fas:hover {
+    color: orange;
+}
+#testimonials {
+    padding: 7% 15% 5% 15%;
+    text-align: center;
+    background-color: #111633;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+    position: relative;
+    z-index:1 ;
+}
+.testimonials-image {
+    width:7%;
+    border-radius: 100%;
+}
+.testimonials-comment {
+    color: #fff;
+    font-size: .98rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+.carousel-indicators {
+    position:inherit;
+}
+.pricing-hr {
+    margin: 1% 30% 2% 30%;
+}
+.pricing-text {
+    text-align: center;
+    padding: 2% 7% 1% 7%;
+}
+#pricing {
+    padding: 5% 20%;
+    text-align: center;
+}
+.pricing-board {
+    margin: 5% 0;
+}
+.pricing-text-heading {
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: bolder;
+}
+.card-header-basic {
+    color: #111633;
+}
+.card-header-Silver {
+    color: silver;
+}
+.card-header-Gold {
+    color: goldenrod;
+}
+#cta {
+    background-color:#111633 ;
+    color: #fff;
+    text-align: center;
+    padding: 5% 10%;
+}    
+#cta-heading { 
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: bolder;
+}
+.bottopm-btn {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.brand-logo {
+    color: orange;
+}
+@media (max-width: 1028px){
+    #title {
+      text-align: center;
+    }
+    
+    .title-image {
+        width: 100%;
+        transform: rotate(0);
+        position: static;
+    }
+    .navbar-brand {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1rem;
+    }
+    .Download-button {
+        margin: 5% 3% 3% 0;
+    }
+    h1 {
+
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: bolder;  
+    }
+    .Download-button {
+        margin: 20% 06% 3% 0;
+    }
+}
+#footer {
+    text-align: center;
+    font-size: medium;
+}
+.social-icon {
+    color: #111633;
+    padding: 2% 2%;
+}
+.social-icon:hover {
+    color: orange;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

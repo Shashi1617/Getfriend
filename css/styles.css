@@ -151,6 +151,11 @@ p {
         transform: rotate(0);
         position: static;
     }
+        .navbar-link {
+        position: relative;
+        right: 5%;
+        text-align: left;
+    }
     .navbar-brand {
         font-family: 'Ubuntu', sans-serif;
         font-size: 3rem;
